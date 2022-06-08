@@ -8,7 +8,7 @@ git commit -m "MESSAGE" = commits the staged files
 git branch NAME_OF_BRANCH = creates a git branch
 git checkout NAME_OF_BRANCH = moves to that specified branch / checks if you're at that specified branch
 
-git remote NAME URL = sets a remote url to be accesed
+git remote add NAME URL = sets a remote url to be accesed
 git remote set-url NAME NEW_URL = changes the url
 git push NAME BRANCH = pushes the commited projects to the specified branch of the repository using the remote url
 git pull NAME BRANCH = pulls the files of the specified branch of the repository
