@@ -1,4 +1,5 @@
 git init = initializes git in the Directory
+rm -rf .git = uninitializes the Directory if it has git
 git status = checks the status of git hence the name
 
 git add NAME_OF_FILE = stages the file specified
