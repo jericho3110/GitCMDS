@@ -13,6 +13,9 @@ git remote add NAME URL = sets a remote url to be accesed
 git remote rm NAME = deletes the NAME
 git remote set-url NAME NEW_URL = changes the url
 
+git config --global user.name "NAME HERE" = sets username of your git
+git config --global user.email EMAIL = sets email of your git
+
 git push NAME BRANCH = pushes the commited projects to the specified branch of the repository using the remote url
 
 git pull NAME BRANCH = pulls the files of the specified branch of the repository
