@@ -11,7 +11,7 @@ git branch -M main = It forces the rename: The "-M" option forces Git to rename 
 git branch NAME_OF_BRANCH = creates a git branch
 git checkout NAME_OF_BRANCH = moves to that specified branch / checks if you're at that specified branch
 
-git remote -v = shows connected remote repository
+git remote -v = shows all connected remote repository
 git remote add NAME URL = sets a remote url to be accesed
 git remote rm NAME = deletes the NAME
 git remote set-url NAME NEW_URL = changes the url
